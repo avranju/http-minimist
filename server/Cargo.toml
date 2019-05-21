@@ -1,0 +1,16 @@
+[package]
+name = "http-minimist"
+version = "0.1.0"
+authors = ["Rajasekharan Vengalil <rajave@microsoft.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.1"
+http = "0.1"
+hyper = "0.12"
+maplit = "1.0"
+objekt = "0.1"
+tokio = "0.1"
+typed-headers = "0.1"
+
+edgelet-test-utils = { path = "../edgelet-test-utils" }
